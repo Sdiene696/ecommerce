@@ -1,0 +1,64 @@
+:root{
+    --theme-color: #7dcea0;
+    --text-color:#000000;
+    --bg-color:#efefef;
+    --white-color:white;
+    --box-shadow: 0 30px 30px #757676;
+}
+
+#shop{
+    position: relative;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.shop .images .img-fluid{
+    height: 18rem;
+    width: 10rem;
+}
+.shop .images-small{
+    display: flex;
+    justify-content: space-between;
+}
+.shop .images-small .images-small-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.shop .images-small .images-small-col img{
+    margin-top: 0.7rem;
+    height: 8rem;
+    width: 8.5rem;
+}
+.shop .details{
+    padding: 1.2rem 1rem;
+}
+.shop .details h3{
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.shop .details h4{
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.shop .details h5{
+    padding: 0.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.shop .details p{
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.shop button{
+    outline: none;
+    border: 1px solid var(--theme-color);
+    background-color:transparent;
+    color: var(--theme-color);
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
